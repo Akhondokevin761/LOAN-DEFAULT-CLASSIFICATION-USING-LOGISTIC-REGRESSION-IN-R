@@ -1,0 +1,27 @@
+#Accuracy
+predictions%>%
+  metrics(Default,.pred_class)%>%
+  select(-.estimator)%>%
+  filter(.metric == "accuracy")
+
+#Precision
+predictions%>%
+  precision(Default,.pred_class)
+#Recalll
+predictions%>%
+  recall(Default,.pred_class)
+
+predictions%>%
+  f_meas(Default,.pred_class)
+
+#Start by computing ROC data
+roc_data <- predictions%>%
+  mutate(pred.prob=ifelse(.pred_class=="Not.Defaulted",0,1))%>% #Convert the .pred_class to numeric and name it pred.prob
+  select(-.pred_class)%>% #Exclude the .pred_class
+  roc_curve(truth = Default,pred.prob)
+#Plot the ROC Curve
+ggplot(roc_data,aes(x=1-specificity,y=sensitivity))+
+  geom_path(color="blue")+
+  geom_abline(linetype = "dashed",color = "red")+
+  labs(title = "ROC Curve", x = "1-specificity",y = "Sensitivity")
+

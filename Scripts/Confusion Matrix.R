@@ -1,0 +1,3 @@
+#Construction of confusion matrix
+predictions%>%
+  conf_mat(Default,.pred_class)
