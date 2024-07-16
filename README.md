@@ -21,6 +21,12 @@ The objective of this project is to classify loans as either defaulted or not de
 
 -[Licence](#Licene)
 
+## Introduction
+
+This project aims to classify loans as either defaults or not defaults using logistic regression. Correct classification helps financial institutions such as banks to make proper and informed risk management when lending.
+
+## Project Structure
+
 
 
 
