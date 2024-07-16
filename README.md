@@ -38,5 +38,10 @@ The data used contains 18 variables and 255347 observations. It was obtained fro
 
 ## Usage
 
+First, clone the repository.
+
+```bash
+git clone
+```
 
 
