@@ -38,10 +38,17 @@ The data used contains 18 variables and 255347 observations. It was obtained fro
 
 ## Usage
 
-First, clone the repository.
+### 1. Clone the repository.
 
 ```bash
-git clone
+git clone https://github.com/Akhondokevin761/LOAN-DEFAULT-CLASSIFICATION-USING-LOGISTIC-REGRESSION-IN-R.git
 ```
 
+### 2. Install and Load the Required Libraries
+
+To do this, ensure that R and R studio are installed on your PC.
+
+```R
+source
+```
 
