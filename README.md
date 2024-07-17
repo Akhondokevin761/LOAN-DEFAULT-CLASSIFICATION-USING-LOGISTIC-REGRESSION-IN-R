@@ -102,4 +102,6 @@ source("Scripts/Performance Metrics.R")
 The model was evaluated using Accuracy, Precision, Recall, and F-1 score. Confusion Matrix and ROC curve were used to assess the performance of the model.
 
 
+## Results
 
+The model achieved an accuracy of 88.57% a precision of 0.5979, Recall of 0.0322 and F-1 score of 0.0612.
