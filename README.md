@@ -105,4 +105,12 @@ The model was evaluated using Accuracy, Precision, Recall, and F-1 score. Confus
 ## Results
 
 The model achieved an accuracy of 88.57% a precision of 0.5979, a Recall of 0.0322, and an F-1 score of 0.0612.
-From the results, the model performed well in terms of accuracy but struggled on precision and recall. This suggests that there is need for tuning or using another approach prediction.
+From the results, the model performed well in terms of accuracy but struggled on precision and recall. This suggests that there is need for tuning or using another approach to prediction.
+
+## Contribution
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code adheres to the project's coding standards and includes appropriate tests.
+
+## Licence
+
+The Licence is provided on the LICENCE file.
