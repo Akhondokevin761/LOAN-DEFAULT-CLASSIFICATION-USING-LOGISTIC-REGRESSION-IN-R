@@ -97,7 +97,9 @@ Using the script below:
 source("Scripts/Performance Metrics.R")
 ```
 
+## Evaluation
 
+The model was evaluated using Accuracy, Precision, Recall, and F-1 score. Confusion Matrix and ROC curve were used to assess the performance of the model.
 
 
 
