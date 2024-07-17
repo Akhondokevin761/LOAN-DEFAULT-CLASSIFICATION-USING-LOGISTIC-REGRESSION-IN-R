@@ -49,6 +49,57 @@ git clone https://github.com/Akhondokevin761/LOAN-DEFAULT-CLASSIFICATION-USING-L
 To do this, ensure that R and R studio are installed on your PC.
 
 ```R
-source
+source("Scripts/Loading libraries.R")
 ```
+
+### Perform Data Importation
+
+Using the script below:
+```R
+source("Scripts/Importing data.R")
+```
+
+### Splitting Data
+
+Use the below script:
+
+```R
+source("Scripts/Splitting data.R")
+```
+
+### Data Preprocessing Recipe
+
+Run the below script:
+
+```R
+source("Scripts/Data Preprocessing Recipe.R")
+```
+
+### Fit the Model and Make Predictions
+
+Using the script below:
+
+```R
+source("Scripts/Fitting the model and predictions.R")
+```
+
+### Confusion Matrix
+
+Obtain the Confusion Matix using the script below
+
+```R
+source("Scripts/Confusion Matrix.R")
+```
+
+### Performance Metrics
+
+Using the script below:
+
+```R
+source("Scripts/Performance Metrics.R")
+```
+
+
+
+
 
