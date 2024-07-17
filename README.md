@@ -11,8 +11,6 @@ The objective of this project is to classify loans as either defaulted or not de
 
 -[Usage](#Usage)
 
--[Model Training](#Model-Training)
-
 -[Evaluation](#Evaluation)
 
 -[Results](#Results)
@@ -52,14 +50,14 @@ To do this, ensure that R and R studio are installed on your PC.
 source("Scripts/Loading libraries.R")
 ```
 
-### Perform Data Importation
+### 3. Perform Data Importation
 
 Using the script below:
 ```R
 source("Scripts/Importing data.R")
 ```
 
-### Splitting Data
+### 4. Splitting Data
 
 Use the below script:
 
@@ -67,7 +65,7 @@ Use the below script:
 source("Scripts/Splitting data.R")
 ```
 
-### Data Preprocessing Recipe
+### 5. Data Preprocessing Recipe
 
 Run the below script:
 
@@ -75,7 +73,7 @@ Run the below script:
 source("Scripts/Data Preprocessing Recipe.R")
 ```
 
-### Fit the Model and Make Predictions
+### 6. Fit the Model and Make Predictions
 
 Using the script below:
 
@@ -83,7 +81,7 @@ Using the script below:
 source("Scripts/Fitting the model and predictions.R")
 ```
 
-### Confusion Matrix
+### 7. Confusion Matrix
 
 Obtain the Confusion Matix using the script below
 
@@ -91,7 +89,7 @@ Obtain the Confusion Matix using the script below
 source("Scripts/Confusion Matrix.R")
 ```
 
-### Performance Metrics
+### 8. Performance Metrics
 
 Using the script below:
 
